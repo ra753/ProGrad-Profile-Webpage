@@ -1,0 +1,3 @@
+Hello World
+This is BASH
+This is a command line interface (CLI)
