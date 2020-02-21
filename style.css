@@ -1,0 +1,148 @@
+*{
+    font-family: 'Nunito Sans';
+}
+
+.nav {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+    padding: 0px;
+    color: blanchedalmond;
+}
+
+.impoText {
+    font-size: 230%;
+    font-weight:600;
+    color: orange;
+
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	padding: 0px;
+}
+
+
+nav ul li{
+	margin: 0 20px;
+}
+
+.nav-link{
+    font-size: 1.4em;
+    color: black;
+}
+
+.midbar {
+    color: white;
+	background: black;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+}
+#about {
+    display: flex;
+    color: rgb(59, 44, 20);
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(230, 215, 215);
+}
+#about img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 100px;
+}
+#about article {
+    font-size: 1.2em;
+    color: black;
+}
+#about h5{
+    font-size: 1.55em;
+}
+#about p{
+    font-size: 1em;
+}
+#projects {
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+#projects h1{
+    padding: 30px;
+    padding-bottom: 0px;
+}
+#projects div {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+
+}
+#projects article {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+
+}
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+#skills hr{
+    width: 200px;
+}
+progress[value]{
+	height: 10px;
+	width: 350px;
+	~webkit-appearance: none;
+}
+
+
+progress[value]::~webkit-progress-bar{
+	background-color: grey;
+	border-radius: 2px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25 inset);
+}
+
+::~webkit-progress-value{
+	background-color: blue;
+}
+
+.input{
+    border-color: black;
+    line-height: 2em;
+	width: 350px;
+	border-radius: 3px;
+	margin: 3px 0;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+	color: white;
+	align-items: center;
+	padding: 40px 0;
+}
+
+#contact form{
+	display: flex;
+    font-size: 1em;
+    flex-direction: column;
+	
+}
+
